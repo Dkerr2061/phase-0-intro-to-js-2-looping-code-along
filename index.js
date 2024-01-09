@@ -9,11 +9,11 @@ function writeCards(stringNames, eventNames) {
   return newArr;
 }
 
-function countDown() {
-  let i = 10;
+function countDown(num) {
+  
 
-  while(i >= 0) {
-    i--;
-    console.log(i);
+  while(num >= 0) {
+    console.log(num);
+    num--;
   }
 }
